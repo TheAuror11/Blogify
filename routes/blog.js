@@ -1,8 +1,11 @@
 const { Router } = require("express");
 const multer = require("multer");
+const app = express();
 const path = require("path");
 
 // app.use('/public', express.static(path.join(__dirname, 'public')));
+
+//Static Path For Images (Try)
 app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
 
