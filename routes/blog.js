@@ -2,6 +2,10 @@ const { Router } = require("express");
 const multer = require("multer");
 const path = require("path");
 
+// app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
+
+
 const Blog = require("../models/blog");
 const Comment = require("../models/comment");
 
