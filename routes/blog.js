@@ -7,7 +7,7 @@ const path = require("path");
 // app.use('/public', express.static(path.join(__dirname, 'public')));
 
 //Static Path For Images (Try)
-app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
+// app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 
 
 const Blog = require("../models/blog");
